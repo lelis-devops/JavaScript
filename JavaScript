@@ -1,9 +1,11 @@
 alert("Boas vindas ao site!");
 
   //Guarda o nome
+
 let nome ="Lua";
 
   //Guarda o número de vendas
+
 let idade =25;
 
   //Guarda o número de vendas 
@@ -19,12 +21,4 @@ let mensagemDeErro ="Erro! Preencha todos os campos"
 alert(mensagemDeErro);
 
 
-// Agora usando prompt para capturar informações do usuário
-let nomeUsuario = prompt("Digite seu nome:");
-let idadeUsuario = prompt("Digite sua idade:");
-
-// Validação da idade
-if (idadeUsuario >= 18) {
-    alert("Pode tirar a habilitação!");
-}
 
