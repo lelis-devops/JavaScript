@@ -75,9 +75,25 @@ let numeroFinal = 10
 
 
 //Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
-
+     let nota = parseInt(prompt("Digite um número de 1 a 10")
+                       if ( numero >= 7) {
+   console.log("Aprovado");
+ else {
+      console.log("Reprovado");
+}      
 //Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
 
-//Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.
+let numeroMaximo =10
+let nota  = parseInt(Math.random() * numeroMaximo +1);
+    console.log( `Número aleatório gerado é ${nota}`)
 
+//Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.
+let numeroMaximo = 10;
+let numeroAleatorio = parseInt(Math.random() * numeroMaximo + 1);
+
+console.log(numeroAleatorio);
 //Use o Math.random para gerar um número inteiro entre 1 e 1000 e exiba esse número no console.
+let numeroMaximo = 100;
+let numeroAleatorio = parseInt(Math.random() * numeroMaximo + 1);
+
+console.log(numeroAleatorio);
