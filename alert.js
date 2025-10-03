@@ -30,7 +30,7 @@ else if (numerodoUsuario < 0)
 
 
 
-Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
+//Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
 
 let numerodaPontuaçao = prompt("Digite um número de 0 a 100")
 
@@ -46,7 +46,7 @@ else {
 
 
 
-Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+//Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 
 let saldodaConta =1000
 
@@ -54,7 +54,7 @@ alert (`Senhorita, o saldo da sua conta é ${saldodaConta}`);
 
 
 
-Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+//Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
 let nomedeUsuario = prompt("Qual é seu nome?");
 
