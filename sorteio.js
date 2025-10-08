@@ -8,7 +8,7 @@ let tentativas = 1;
 
 // enquanto chute não for igual ao número secreto
 while (suposição != numeroSecreto) {
-    chute = parseInt(prompt(`Escolha um número entre 1 e 70 ${numeroMaximo}`));
+    suposição = parseInt(prompt(`Escolha um número entre 1 e 70 ${numeroMaximo}`));
 
     if (suposição == numeroSecreto) {
         break; // se acertar, sai do laço
